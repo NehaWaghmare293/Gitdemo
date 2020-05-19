@@ -15,6 +15,8 @@ public class AutoDropdown {
 		String sript= "return document.getElementById(\"fromPlaceName\").value;";
         String text=(String)js.executeScript(sript);
         System.out.println(text);
+        System.out.println("1234");
+       
 	}
 
 }
